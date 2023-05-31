@@ -8,3 +8,5 @@ I made this for my Computer Science class, so I figured I should share it.
  - Runs under Python 3 interpreter for efficiency
  - Open-Source (but that's obvious)
 
+## Why?
+Because I want to. Simple as that.
