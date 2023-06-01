@@ -49,8 +49,7 @@ genmode = input("Would you like to use v1 or v2?\n>> ")
 if genmode == "v2":
   import version2
 else:
-  password_length = int(
-  input(
+  password_length = int(input(
     "\nHow long would you like your generated password to be?\n(between 8-12 characters)\n>> "
     ))
   print("\n\nYour generated pasword is:\n" +  password_generator(password_length))

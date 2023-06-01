@@ -29,7 +29,7 @@ def password_generator(length, choice):
 choices = []
 password_length = int(
   input(
-    "\nHow long would you like your generated password to be?\n(between 8-12 characters)\n>> "
+    "\nHow long would you like your generated password to be?\n>> "
   ))
 choices.append(input("\nWould you like to use uppercase letters?\n>> "))
 choices.append(input("\nWould you like to use lowercase letters?\n>> "))
