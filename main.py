@@ -46,9 +46,15 @@ def password_generator(length):
 
 print("Welcome to Chaney's Password Generator!\n\n")
 genmode = input("Would you like to use Simple or Advanced mode?\n>> ")
-if genmode == "Advanced" or genmode == "advanced":
+if genmode == "Advanced" or genmode == "advanced" or genmode == "a" or genmode == "A":
   import version2
+elif genmode == "Simple" or genmode == "simple" or genmode == "s" or genmode == "S":
+  password_length = int(input(
+    "\nHow long would you like your generated password to be?\n(between 8-12 characters)\n>> "
+    ))
+  print("\n\nYour generated pasword is:\n" +  password_generator(password_length))
 else:
+  print("\nUnknown option. Falling back to Simple mode...\n")
   password_length = int(input(
     "\nHow long would you like your generated password to be?\n(between 8-12 characters)\n>> "
     ))
