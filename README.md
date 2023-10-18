@@ -1,5 +1,5 @@
 # Chaney's Secure Password Generator
-I made this for my Computer Science class, so I figured I should share it.
+Generate secure passwords quickly and easily with Chaney's Secure Password Generator! Specify password lengths and choose the characters you would like to use.
 ## Features
 
  - Simple Mode
